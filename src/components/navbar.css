@@ -1,0 +1,118 @@
+.navbar{
+    background-color: #795F8D !important;
+}
+.navbar_whole{
+    background-color: #795F8D !important;
+    padding: 10px 60px;
+    display: flex;
+    flex-direction: column;
+}
+.whole_smallnav{
+    display: none;
+}
+.second_nav{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown_reg{
+    display: flex;
+}
+.dropdown_regsmall{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -70px;
+    top: 60px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.562);
+    padding: 10px;
+}
+.logo_transact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.transaction_text{
+    margin: 0 0 0 40px;
+    color: white;
+}
+.sell_button{
+    color: white;
+    background-color: orange;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+}
+.whole_bignav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.sell_buttondrop{
+    color: white;
+    background-color: orange;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+.settings_drop{
+    position: absolute;
+    top: 70px;
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.562);
+    padding: 20px;
+    right: 50px;
+    background-color: white;
+}
+.settings_reg{
+    margin-bottom: 0;
+    display: flex;
+}
+.image_profile{
+    background-color: rgb(180,165,191);
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: relative;
+}
+.navbar-collapse{
+    display: flex !important;
+    /* justify-content: space-between !important; */
+}
+.brand_name{
+    color: white;
+    font-size: 24px;
+}
+.hamburger_Sign{
+    display: flex;
+}
+.containment_nav{
+    width: 100%;
+    justify-content: space-between;
+}
+.hamburgerSign{
+    border: 1px solid white;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    height: 40px;
+}
+.hamburg_drop{
+    position: relative;
+}
+@media (max-width: 750px ){
+    .whole_smallnav{
+        display: block;
+    }
+    .whole_bignav{
+        display: none;
+    }
+}
+@media (max-width: 550px ){
+    .navbar_whole{
+        padding: 10px ;
+    }
+    .transaction_text{
+        margin-left: 20px;
+    }
+}

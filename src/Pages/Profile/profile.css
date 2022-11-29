@@ -1,0 +1,142 @@
+.profile_whole{
+    padding-top: 20px;
+    width: 90%;
+    margin-left: 5%;
+    min-height: 100vh;
+}
+.body_detail{
+    background-color: #F6EBFF;
+}
+.profile_text{
+    font-size: 25px;
+}
+.edit_but{
+    color: rgba(150, 133, 163, 1);
+    margin-left: 10px;
+}
+.edit_buttonpoint{
+    border: 1px solid  rgba(150, 133, 163, 1);
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.button_shift{
+    display: flex;
+    justify-content: flex-end;
+}
+.fill_region{
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 5px;
+    flex-direction: row;
+}
+.fill_region2{
+    background-color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.fname_user{
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+.fname_userinput{
+    border: 1px solid rgba(224, 224, 224, 1);
+    width: 250px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.email_userinput{
+    border: 1px solid rgba(224, 224, 224, 1);
+    width: 280px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.user_picture{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.addr_userinput{
+    width: 100%;
+    border: 1px solid rgba(224, 224, 224, 1);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.addr_reg{
+    width: 80%;
+}
+.user_col{
+    position: relative;
+}
+.image_uploadfile{
+    display: none;
+}
+.camera_img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background: rgba(50, 50, 50, 0.514);
+    border-radius: 50%;
+}
+.change_psw{
+    border: none;
+    margin-top: 10px;
+    background-color: rgba(121, 95, 141, 1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+}
+@media (max-width: 800px){
+    .fill_region{
+        flex-direction: column;
+    }
+    .name_hold{
+        width: 100%;
+    }
+    /* .fname_userinput{
+        width: 280px;
+    } */
+    .fname_userinput{
+        width: 100%;
+    }
+    .email_userinput{
+        width: 100%;
+    }
+}
+@media (max-width: 650px){
+    .fill_region{
+        flex-direction: column;
+    }
+    .fname_userinput{
+        width: 100%;
+    }
+    .email_userinput{
+        width: 100%;
+    }
+    .addr_reg{
+        width: 100%;
+        /* justify-content: flex-start; */
+    }
+}
+@media (max-width: 450px){
+    .fill_region{
+        padding: 10px;
+    }
+    .fill_region2{
+        padding: 10px;
+    }
+}
