@@ -2,9 +2,11 @@ import React from "react";
 import "./profile.css";
 import {AiFillEdit} from "react-icons/ai"
 import clientimg from "../../assets/trackshipmentweb.png"
+import Navbarside from "../../components/Navbar";
 
 const Profile=()=>{
-    return (
+    return (<>
+    <Navbarside title="Sell"/>
         <div className="body_detail">
         <div className="profile_whole">
             <p className="profile_text">Profile</p>
@@ -37,6 +39,7 @@ const Profile=()=>{
             <button className="change_psw">Change Password</button>
         </div>
         </div>
+        </>
     )
 }
 

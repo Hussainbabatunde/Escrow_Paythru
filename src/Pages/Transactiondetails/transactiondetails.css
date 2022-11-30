@@ -1,0 +1,39 @@
+.details_form{
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.img_shown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+.detail_names{
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(216, 210, 210);
+}
+.product_name{
+    font-weight: 600;
+}
+.user_productname{
+    color: #F2994A;
+}
+.witness_name{
+    font-weight: 600;
+    margin-top: 10px;
+}
+.witness_email{
+    width: 90%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+}
+.invite_witness{
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #795F8D;
+    margin-top: 10px;
+}

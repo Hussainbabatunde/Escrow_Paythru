@@ -3,12 +3,17 @@
     width: 90%;
     margin-left: 5%;
     min-height: 100vh;
+    padding-bottom: 20px;
 }
 .body_detail{
     background-color: #F6EBFF;
 }
 .profile_text{
     font-size: 25px;
+}
+.profile_text2{
+    font-size: 21px;
+    margin-top: 10px;
 }
 .edit_but{
     color: rgba(150, 133, 163, 1);

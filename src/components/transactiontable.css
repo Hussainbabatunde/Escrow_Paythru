@@ -1,0 +1,58 @@
+.transacttable{
+    background-color: white;
+    padding: 20px;
+}
+.history_text{
+    font-size: 18px;
+}
+.search_whole{
+    background-color: #c6cfdb4f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.search_inputsec{
+    background-color: white;
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.input_search{
+    border: none;
+    width: 90%;
+    margin-left: 5px;
+}
+.button_filter{
+    border: none;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.table_sec{
+    margin-top: 20px;
+}
+.transaction_status{
+    color: green;
+    background-color: #badad1;
+    font-size: 14px;
+    padding: 3px;
+    border-radius: 5px;
+}
+.status_details{
+    color: #2F80ED;
+}
+.panda_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.initial_transaction{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    background-color: #9685A3;
+}

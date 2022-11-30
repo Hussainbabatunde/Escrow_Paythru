@@ -42,6 +42,16 @@
     border-radius: 5px;
     border: none;
     margin-right: 30px;
+    text-decoration: none;
+}
+.sellred_button{
+    color: white;
+    background-color: #EF1B1B;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+    text-decoration: none;
 }
 .whole_bignav{
     display: flex;
@@ -55,6 +65,16 @@
     border-radius: 5px;
     border: none;
     margin-bottom: 10px;
+    text-decoration: none;
+}
+.sellred_buttondrop{
+    color: white;
+    background-color: #EF1B1B;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    text-decoration: none;
 }
 .settings_drop{
     position: absolute;

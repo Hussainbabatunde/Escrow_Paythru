@@ -8,9 +8,10 @@ import logo from "../assets/escrowclient.png";
 import {AiFillCaretDown,AiOutlineSetting, AiFillCaretUp} from "react-icons/ai";
 import {CgProfile} from "react-icons/cg"
 import {HiMenu} from "react-icons/hi"
+import { Link } from "react-router-dom";
 
 
-const Navbarside=()=>{
+const Navbarside=({title})=>{
     const [dropdown, setDropdown] = useState(false)
     const [hamburg, setHamburg] =useState(false)
     const handleDropdown= ()=>{
@@ -27,7 +28,7 @@ const Navbarside=()=>{
         <p className="transaction_text">Transaction</p>
         </div>
         <div className="dropdown_reg">
-            <button className="sell_button">Sell</button>
+            <Link to={title=="Buy" ? "/" : "/signup"} className={title=="Buy"?"sell_button": "sellred_button"}>{title}</Link>
             <div className="image_profile" onClick={handleDropdown}>
             <img src={logo} width="30px" height="30px"/>
             {dropdown? <AiFillCaretUp style={{color:"white", marginLeft:"10px"}}/> :<AiFillCaretDown style={{color:"white", marginLeft:"10px"}}/>}
@@ -51,7 +52,7 @@ const Navbarside=()=>{
         <div className="hamburg_drop">
         <HiMenu style={{color:"white", fontSize:"30px", marginTop:"5px", marginLeft:"5px"}} className="hamburgerSign" onClick={handleHamburg}/>
         {hamburg?<div className="dropdown_regsmall">
-            <button className="sell_buttondrop">Sell</button>
+            <Link to={title=="Buy" ? "/" : "/signup"} className={title=="Buy"?"sell_buttondrop": "sellred_buttondrop"}>{title}</Link>
             <p><CgProfile  style={{color:"black", marginRight:"10px"}}/>Profile</p>
                 <p className="settings_reg"><AiOutlineSetting  style={{color:"black", marginRight:"10px", marginTop:"5px"}}/>Settings</p>
         </div>: ""}
