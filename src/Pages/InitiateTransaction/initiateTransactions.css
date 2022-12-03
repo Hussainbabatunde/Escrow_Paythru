@@ -1,0 +1,61 @@
+.initiate_trans{
+    color: #666464
+}
+.email_sellerinput{
+    width: 45%
+}
+.input_sellercol{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+}
+.product_sellercol{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+    min-height: 100px;
+}
+.init_sellersemail{
+    margin-bottom: 0;
+    color: #4f4f4f;
+}
+.product_sellersemail{
+    margin-bottom: 0;
+    color: #4f4f4f;
+    margin-top: 10px;
+}
+.seller_product{
+    display: flex;
+    justify-content: space-between;
+}
+.uploadimg_shown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #e0e0e0;
+    height: 120px;
+    flex-direction: column;
+}
+.upload_initiatetrans{
+    color: #828282;
+    margin-bottom: 0;
+}
+.upload_initfile{
+    display: none;
+}
+.inititate_transbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+@media (max-width: 680px){
+    .seller_product{
+        flex-direction: column;
+    }
+    .email_sellerinput{
+        width: 100%;
+    }
+}

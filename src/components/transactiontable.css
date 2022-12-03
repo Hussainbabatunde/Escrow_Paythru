@@ -56,3 +56,17 @@
     border-radius: 5px;
     background-color: #9685A3;
 }
+@media (max-width: 700px){
+    .search_whole{
+        flex-direction: column;
+    }
+    .input_search{
+        width: 80%;
+    }
+    .search_inputsec{
+        width: 100%;
+    }
+    .button_filter{
+        margin-top: 10px;
+    }
+}

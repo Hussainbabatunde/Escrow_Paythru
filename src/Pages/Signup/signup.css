@@ -121,7 +121,15 @@
         width: 100%;
     }
     .login_right{
-        width: 90%;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .remember_me{
+        width: 100%;
     }
     .password_holder{
         width: 100%;

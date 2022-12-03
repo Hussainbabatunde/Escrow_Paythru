@@ -1,0 +1,262 @@
+.whole_homepage{
+    background: #fbfbfb;
+}
+.first_section{
+    display: flex;
+    margin-top: 20px;
+    width: 85%;
+    margin-left: 7.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+.phone_img{
+    width: 500px;
+    height: 400px;
+}
+.sec1_firstsection{
+    width: 40%;
+}
+.secTransactions{
+    font-size: 50px;
+    font-weight: bold;
+}
+.sacTransactions_text{
+    color:#888888;
+}
+.text_ecommerce{
+    color: #ff8a00;
+}
+.trusted_ecommerce{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.sec2_landing{
+    background-color: white;
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.howitworks{
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+.howitworks_seller{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+.howitworks_seller2{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+.buyer_text{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.arebuyer_howitworks{
+    font-size: 24px;
+    font-weight: bold;
+}
+.sec1_start{
+    background: #ffe2bf;
+    color: #ff8a00;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sec1_start:hover{
+    transition: #0064ff 0.2s ease-out ;
+    background: #0064ff;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sec1_signup{
+    background: #0064ff;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.sec1_signup:hover{
+    transition: background 1s ease ;
+    background: #ff8a00;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.sec3_landing{
+    display: flex;
+    padding:80px 0;
+    width: 85%;
+    margin-left: 7.5%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec3_landing_sec2{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.sec3_landing_sec1{
+    width: 40%;
+}
+.sec3_landing_sec1_p1{
+ color: #ff8a00;
+ font-weight: bold;
+
+}
+.shield_text{
+    margin-left: 30px;
+}
+.sec2_shield_phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 1s ease-out background; */
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.sec2_shield_phone2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: 1s ease-out background; */
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sec2_shield_phone:hover{
+    background: white;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+}
+.sec2_shield_phone2:hover{
+    background: white;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+}
+.sec3_landing_sec1_p2{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.sec3_landing_sec2_sec1{
+    background-color: rgba(108, 81, 216, 0.1);
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    border-radius: 5px;
+    width: 45%;
+}
+.details_shield{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.sec4_landing{
+    margin-top: 80px;
+}
+.sec4_trusted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    width: 60%;
+    margin-left: 20%;
+}
+.cust_comm{
+    width: 85%;
+    margin-left: 7.5% !important;
+    display: flex;
+    margin: 30px 0;
+}
+.first_comment{
+    background-color: white;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+}
+@media(max-width: 1000px){
+    .first_section{
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .sec1_signuplogin{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .sec1_signup{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1_start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+    }
+    .first_section{
+        flex-direction: column;
+    }
+    .sec1_firstsection{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .secTransactions{
+        text-align: center;
+    }
+    .sacTransactions_text{
+        text-align: center;
+    }
+    .sec1_signuplogin{
+        justify-content: center;
+        align-items: center;
+    }
+    .sec1_signup{
+        margin-right: 0 !important;
+    }
+}
+
+@media(max-width: 700px){
+    .phone_img{
+        width: 90%;
+    }
+    .howitworks_seller{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .howitworks_seller2{
+        flex-direction: column-reverse;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    .img_sellerimg{
+        width: 100%;
+    }
+    .buyer_text{
+        width: 250px;
+    }
+}

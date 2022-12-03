@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import InitiateTransaction from "../Pages/InitiateTransaction/InitiateTransaction";
 import EditProfile from "../Pages/Profile/EditProfile";
 import Profile from "../Pages/Profile/Profile";
 import Transactiondetails from "../Pages/Transactiondetails/Transactiondetails";
@@ -15,6 +16,7 @@ const PublicRoutes=()=>{
                 <Route path="/editprofile" element={<EditProfile/>}/>
                 <Route path="/buyTransact" element={<BuyerTransaction/>}/>
                 <Route path="/Transactdetails" element={<Transactiondetails/>}/>
+                <Route path="/initiateTransactions" element={<InitiateTransaction/>}/>
             </Routes>
         </div>
     )
