@@ -1,0 +1,110 @@
+.image_holder{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hrcorelogin_page{
+    background-color: rgb(233,233,233);
+    min-Height: 100vh;
+}
+.login_formside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.form_details{
+    background-color: white;
+    border-radius: 10px;
+}
+.switch_users{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(249,249,249);
+    padding: 10px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.staff_chosen{
+    border: none;
+    background-color: rgb(247,37,133);
+    width: 200px;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+.admin_chosen{
+    width: 200px;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+.loginuser_seg{
+    padding: 20px 40px 20px;
+}
+.Login_text{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.signin_staffacc{
+    font-size: 22px;
+}
+.staff_acc{
+    font-weight: bold;
+}
+.login_emailaddr{
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.email_inputlogin{
+    border: none;
+    width: 600px;
+    border-radius: 5px;
+    background-color: rgb(240,240,240);
+    padding: 10px 20px;
+}
+.password_emailaddr{
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.forgot_passwordlogin{
+    margin: 15px 0;
+}
+.login_signinbutton{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    padding: 10px;
+    background-color: rgb(42,114,168);
+    margin-bottom: 10px;
+}
+@media(max-width: 750px){
+    .email_inputlogin{
+        width: 400px;
+    }
+}
+@media(max-width: 530px){
+    .email_inputlogin{
+        width: 100%;
+    }
+    .staff_chosen{
+        width: 100px;
+    }
+    .admin_chosen{
+        width: 100px;
+    }
+}
+@media(max-width: 470px){
+    .email_inputlogin{
+        width: 100%;
+        padding: 20px;
+    }
+}

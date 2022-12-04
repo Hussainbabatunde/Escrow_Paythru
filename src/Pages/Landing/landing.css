@@ -146,6 +146,9 @@
     background: white;
     box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
 }
+.sec5_innerdetails2:hover{
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+}
 .sec3_landing_sec1_p2{
     font-size: 3rem;
     font-weight: 700;
@@ -154,13 +157,27 @@
 .sec3_landing_sec2_sec1{
     background-color: rgba(108, 81, 216, 0.1);
     height: 80px;
-    width: 80px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 0px;
     border-radius: 5px;
-    width: 45%;
+}
+.sec5_landing_sec2_sec1{
+    background-color: rgba(108, 81, 216, 0.1);
+    height: 80px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    border-radius: 5px;
+}
+.sec5_headline{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 10px;
 }
 .details_shield{
     font-weight: bold;
@@ -190,6 +207,73 @@
     background-color: white;
     width: 60%;
     padding: 20px;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+    border-radius: 10px;
+}
+.section4sec_comment{
+    background-color: white;
+    width: 36%;
+    padding: 20px;
+    box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
+    border-radius: 10px;
+}
+.baker_col{
+    display: flex;
+}
+.name_comp{
+    margin-left: 20px;
+}
+.baker_colimg{
+    border: 2px solid rgb(172, 172, 235);
+    border-radius: 10px;
+}
+.sec5_innerdetails{
+    padding: 50px;
+    width: 33%;
+}
+.sec5_innerdetails2{
+    padding: 50px;
+    border: 1px solid rgb(240, 231, 231);
+    width: 33%;
+}
+.sec5_landing{
+    
+    background-color: white;
+    padding: 80px 0;
+}
+.sec5_content{
+    width: 85%;
+    margin-left: 7.5%;
+    display: flex;
+}
+.sec5_whyshould{
+    font-weight: bold;
+    font-size: 40px;
+}
+.name_bakercol{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.spiral_ready{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button_secc5signup{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.spiral_sec{
+    width: 80%;
+    margin-left: 10%;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 10px;
+    display: flex;
     box-shadow: 0 0 8px 8px rgba(128, 128, 128, 0.096);
 }
 @media(max-width: 1000px){

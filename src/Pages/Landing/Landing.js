@@ -7,6 +7,9 @@ import sellerimg from "../../assets/image-seller.png"
 import { Link } from "react-router-dom";
 import {AiOutlineArrowRight} from "react-icons/ai"
 import {FaShieldAlt} from "react-icons/fa";
+import castle from "../../assets/01.png"
+import spiral from "../../assets/spiral.png"
+
 
 const Landing= ()=>{
     return(
@@ -107,6 +110,87 @@ const Landing= ()=>{
                               any serious teaching before one could access it. 
                               Love the e-receipt package and the fact that I can 
                             get my money once I’ve delivered the package.</p>
+                            <div className="baker_col">
+                                <img src={castle} width="50px" height="55px" className="baker_colimg"/>
+                                <div className="name_comp">
+                                    <p className="name_bakercol">Busyo Adeseun</p>
+                                    <p className="sacTransactions_text">CEO, Baker's castle</p>
+                                    </div>
+                            </div>
+                    </div>
+                    <div className="section4sec_comment">
+                        <p className="sacTransactions_text">The process of using Sanwo was very 
+                        easy and filled with great user 
+                        experience, I will recommend Sanwo to vendors
+                         and buyers on my timeline. Great product!</p>
+                            <div className="baker_col">
+                                <img src={castle} width="50px" height="55px" className="baker_colimg"/>
+                                <div className="name_comp">
+                                    <p className="name_bakercol">Busyo Adeseun</p>
+                                    <p className="sacTransactions_text">CEO, Baker's castle</p>
+                                    </div>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="sec5_landing">
+                <div className="sec5_content">
+                <div className="sec5_innerdetails">
+                    <p className="sec5_whyshould">Why should you use Sanwo?</p>
+                    <p  className="sacTransactions_text">We reduce fraud between online buyers and 
+                        sellers by providing a safe platform for them to 
+                        transact without fear of being duped..</p>
+                </div>
+                <div className="sec5_innerdetails2">
+                <div className="sec5_landing_sec2_sec1">
+                        <p style={{fontWeight:"bold", color:"#917AEB", fontSize:"22px", marginBottom:"0"}}>01</p>
+                    </div>
+                    <p className="sec5_headline">Corporate Banking</p>
+                    <p  className="sacTransactions_text">We reduce fraud between online buyers and 
+                        sellers by providing a safe platform for them to 
+                        transact without fear of being duped..</p>
+                </div>
+                <div className="sec5_innerdetails2">
+                <div className="sec5_landing_sec2_sec1" style={{backgroundColor:"rgba(81, 181, 109, 0.2)"}}>
+                        <p style={{fontWeight:"bold", color:"#19B500", fontSize:"22px", marginBottom:"0",}}>02</p>
+                    </div>
+                    <p className="sec5_headline">Corporate Banking</p>
+                    <p  className="sacTransactions_text">We reduce fraud between online buyers and 
+                        sellers by providing a safe platform for them to 
+                        transact without fear of being duped..</p>
+                </div>
+                </div>
+                <div className="sec5_content">
+                
+                <div className="sec5_innerdetails2">
+                <div className="sec5_landing_sec2_sec1">
+                        <p style={{fontWeight:"bold", color:"#917AEB", fontSize:"22px", marginBottom:"0"}}>01</p>
+                    </div>
+                    <p className="sec5_headline">Corporate Banking</p>
+                    <p  className="sacTransactions_text">We reduce fraud between online buyers and 
+                        sellers by providing a safe platform for them to 
+                        transact without fear of being duped..</p>
+                </div>
+                <div className="sec5_innerdetails2">
+                <div className="sec5_landing_sec2_sec1" style={{backgroundColor:"rgba(81, 181, 109, 0.2)"}}>
+                        <p style={{fontWeight:"bold", color:"#19B500", fontSize:"22px", marginBottom:"0",}}>02</p>
+                    </div>
+                    <p className="sec5_headline">Corporate Banking</p>
+                    <p  className="sacTransactions_text">We reduce fraud between online buyers and 
+                        sellers by providing a safe platform for them to 
+                        transact without fear of being duped..</p>
+                </div>
+                <div className="sec5_innerdetails2"></div>
+                </div>
+                <div className="spiral_sec">
+                    <img src={spiral}/>
+                    <div className="spiral_ready" >
+                        <p className="sec5_whyshould">Ready to get started with Sanwo?</p>
+                        <div className="button_secc5signup">
+                        <Link className="sec1_signup" style={{marginLeft: "0", width:"280px"}}>Start An Express Transaction <AiOutlineArrowRight/></Link>
+                        <Link className="sec1_signup" style={{marginLeft: "0", width:"280px",display:"flex", justifyContent:"center", alignItems:"center"}}>Signup for free <AiOutlineArrowRight/></Link>
+                        </div>
                     </div>
                 </div>
             </section>
